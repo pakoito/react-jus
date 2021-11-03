@@ -12,8 +12,9 @@ The grid/piece squares can be of an arbitrary size in pixels, and also can be st
 Both the drag preview and the drop point can be styled, as already supported by react-dnd. The pieces snap to the grid, and cannot be dropped outside it or where there's already a piece.
 
 ## Technology stack
-Yarn + vanilla React + react-dnd
-Typescript if possible
+* Yarn + vanilla React + react-dnd
+
+* Typescript if possible
 
 ## Methodology
 Send PRs with a feature branch
