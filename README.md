@@ -17,9 +17,9 @@ Both the drag preview and the drop point can be styled, as already supported by 
 * Typescript if possible
 
 ## Methodology
-Send PRs with a feature branch
-Incrementar PRs go against a branch
-PRs are reviewed and merged into the branch, and then squashed into main
+* Send PRs with a feature branch
+* Incremental PRs go against a branch
+* PRs are reviewed and merged into the branch, and then squashed into main
 
 ## Specifications
 
