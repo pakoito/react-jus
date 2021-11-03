@@ -49,7 +49,7 @@ The grid component will receive props like:
     }
     component: ReactComponent, // the children itself
   }[],
-  style // including background
+  style // including background and grid line styles
   ... // other: TBD
 }
 ```
@@ -57,6 +57,8 @@ The grid component will receive props like:
 A `<div>` will have each children component laid out internally using its x and y, and sizePx.
 
 Children will _not_ be validated that they don't overlap. That logic will only apply for drag/drop.
+
+The grid (lines between squares) can or cannot be visible, and styled: i.e. line width or color.
 
 ### Children
 Each children will contain a single React component, overlayed by an invisible grid for DnD interactions. There are two options for the grid: `flexbox` or `div`. In either option you will need to have a composition of squares (div?) that'll receive drag events individually.
