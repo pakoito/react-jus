@@ -16,6 +16,8 @@ Both the drag preview and the drop point can be styled, as already supported by 
 
 * Typescript if possible
 
+* Jest unit tests are also a plus
+
 ## Methodology
 * Send PRs with a feature branch
 * Incremental PRs go against a branch
